@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3928fdcc-9ab5-4917-852d-8619eb57465d" name="http://172.17.1.30/">
+        <fileTransfer rootFolder="/home/sdddev/web/my-project" accessType="SFTP" host="10.110.27.249" port="22" sshConfigId="6cfb56ba-2f9b-46b7-a162-c46c4f0cba1a" sshConfig="sdddev@10.110.27.249:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
