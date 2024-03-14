@@ -62,11 +62,13 @@
                     <a class="menu-link" href="{{ url('department/developmentlife') }}"><div>{{ trans('message.deplsd') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.depinter') }}</div></a>
+                    <a class="menu-link" href="{{ url('department/inter') }}"><div>{{ trans('message.depinter') }}</div></a>
                 </li>
 
+
+
                 <li class="menu-item">
-                    <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.depsch') }}</div></a>
+                    <a class="menu-link" href="{{ url('department/scholarship') }}"><div>{{ trans('message.depsch') }}</div></a>
                 </li>
 
                 <li class="menu-item">

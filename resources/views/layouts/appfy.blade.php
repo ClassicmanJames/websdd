@@ -55,8 +55,8 @@ list($controller, $action) = explode('@', $controllerAction);
                 <!-- Logo
                 ============================================= -->
                 <div id="logo" class="mx-auto pt-1 pb-2">
-                    <a href="{{ url('/') }}" style="height: 50px; padding-top: 5px; width: 20px; !important;" class="standard-logo" data-dark-logo="{{ asset('upload/img/logo.png') }}"><img  src="{{ asset('upload/img/logo.png') }}" alt="SDD Logo"></a>
-                    <a href="{{ url('/') }}" style="height: 60px; width: 300px;   padding-top: 5px;  !important;" class="retina-logo" data-dark-logo="{{ asset('upload/img/logo.png') }}"><img  src="{{ asset('upload/img/logo.png') }}" alt="SDD Logo"></a>
+                    <a href="index.html" style="height: 50px; padding-top: 5px; width: 20px; !important;" class="standard-logo" data-dark-logo="{{ asset('upload/img/logo.png') }}"><img  src="{{ asset('upload/img/logo.png') }}" alt="SDD Logo"></a>
+                    <a href="index.html" style="height: 60px; width: 300px;   padding-top: 5px;  !important;" class="retina-logo" data-dark-logo="{{ asset('upload/img/logo.png') }}"><img  src="{{ asset('upload/img/logo.png') }}" alt="SDD Logo"></a>
 
 
                 </div><!-- #logo end -->
