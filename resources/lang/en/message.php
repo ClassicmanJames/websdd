@@ -8,11 +8,11 @@ return [
      /////////////
     'About' => 'Abouts',
     'Units' => 'Units',
-    'Studentorganization' => 'Studentorganization',
-    'Studentdevelopment' => 'Studentdevelopment',
-    'Publicnews' => 'Publicnews',
+    'Studentorganization' => 'Student Organization',
+    'Studentdevelopment' => 'Student Development',
+    'Publicnews' => 'Public News',
     'SSDGs' => 'SDGs',
-    'Studentservices' => 'Student services',
+    'Studentservices' => 'Student Services',
     'Scholarships' => 'Scholarships',
     'studentloan' => 'Student Loan',
     'CMUmind' => 'CMU Minds',
@@ -20,10 +20,10 @@ return [
     'Extracurricular' => 'One Stop Service',
 
     'CMUjobsearch' => 'CMU job search',
-    'Accidentinsurance' => 'Accident insurance',
-    'Ssd' => 'Services for students with disabilities',
-    'Sportareas' => 'Sport areas',
-    'mrm' => 'Military related matters',
+    'Accidentinsurance' => 'Accident Insurance',
+    'Ssd' => 'Services for Students with Disabilities',
+    'Sportareas' => 'Sport Areas',
+    'mrm' => 'Military Related Matters',
     'ita' => 'OTA',
 
     'Phone' => 'Phone : ',
@@ -41,10 +41,10 @@ return [
     'Volunteer' => 'Volunteer',
     'FoodFocus' => 'Food Focus',
     'CMUHealthCenter' => 'CMU Health Center',
-    'Healthrelatedapplication' => 'Health related application',
+    'Healthrelatedapplication' => 'Health Related Application',
     'Visitcmu' => 'Visit cmu',
     'CMUCooperativeStore' => 'CMU Cooperative Store',
-    'Landmarksintheuniversity' => 'Landmarks in the university',
+    'Landmarksintheuniversity' => 'Landmarks in the University',
 
     'Relatedorganizations' => 'Related Organizations',
     'Linkstoeachfaculty' => 'Links to each faculty',
@@ -110,7 +110,7 @@ return [
     'sgd16'=> 'PEACE, JUSTICE AND STRONG INSTITUTIONS',
     'sgd17'=> 'PARTNERSHIPS FOR THE GOALS',
 
-
+    
 
 
 ];

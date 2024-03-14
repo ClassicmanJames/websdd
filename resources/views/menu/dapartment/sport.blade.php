@@ -1,392 +1,181 @@
 @extends('layouts.app')
 
 @section('content')
-
     <section id="content">
 
-        <div class="content-wrap" style="padding-bottom: 20px !important;padding-top: 20px;!important; background-color: #f1f2f2">
+        <div class="content-wrap"
+            style="padding-bottom: 20px !important;padding-top: 20px;!important; background-color: #f1f2f2">
             <div class="container clearfix" style="">
                 <div class="col-12 col-lg">
-
                 </div>
 
                 <div class="col-12 col-lg " style="padding-top: 20px;">
                     <div class="fancy-title title-border title-center" style="margin-bottom: 0rem;">
-                        <h2 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">บุคลากร งานกีฬา</h2>
+                        <h2 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">
+                            งานกีฬา
+                        </h2>
                     </div>
-                    <h4 style="text-align: center; ">Personnel Sports Section</h4>
-                    <div class="row col-mb-50 mb-0 d-flex justify-content-center">
-
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-
-                                    <img src="{{ asset('upload/org/อโอ.jpg') }}" alt="นายธนวัฒน์">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายณฐรัช ทองเจิม</h4></div>
-                                    <div class=""><h5 class="">หัวหน้างานกีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-941361  </div>
-                                    <div class="">Email : natarach.th@cmu.ac.th</div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-
-                    </div>
-
-
                 </div>
                 <div class="col-lg-12" style="padding-top: 0px;">
-                    <div class="fancy-title title-border title-center" style="margin-bottom: 0rem;">
-                        <h2 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">สำนักงาน</h2>
+                    <div class="fancy-title title-border title-center" style="margin-top: 2rem;">
+                        <h3 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">ส่วนที่ 1 โครงสร้างสายงาน
+                        </h3>
                     </div>
-                    <h4 style="text-align: center; ">Office</h4>
-                    <div class="row col-mb-50 mb-0 d-flex justify-content-center">
+                    <div class="col-lg-12 d-flex justify-content-around">
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่ษฐา.jpg') }}" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายษฐา รัตนนุสรณ์สกุล</h4></div>
-                                    <div class=""><h5 class="">  กีฬาเพื่อความเป็นเลิศ /
-                                            โครงการรับนักกีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943063  </div>
-                                    <div class="">Email : satha.r@cmu.ac.th</div>
-
-                                </div>
-                            </div>
-
+                            <img src="{{ asset('upload/department/sport-1.png') }}" alt="sport-1">
                         </div>
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/ป๋าเบิ้ม.jpg') }}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายนิคม ชัยชาญ</h4></div>
-                                    <div class=""><h5 class="">การขอใช้สถานที่ /
-                                            กีฬาเพื่อสุขภาพ</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058  </div>
-                                    <div class="">Email : nikom.chai@cmu.ac.th</div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่กฤษณะ.jpg') }}" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายกฤษณะ โคววนิช</h4></div>
-                                    <div class=""><h5 class="">ด้านการดูแลรักษาสถานที่
-                                            / ยืมอุปกรณ์กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058  </div>
-                                    <div class="">Email : kitsana.k@cmu.ac.th</div>
-
-                                </div>
-                            </div>
-
+                            <img src="{{ asset('upload/department/sport-2.png') }}" alt="sport-2">
                         </div>
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่โก้.jpg') }}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายถิรพัฒน์ เมืองใจ</h4></div>
-                                    <div class=""><h5 class=""> ดูแลการใช้สระว่ายน้ำ /
-                                            กีฬาเพื่อสุขภาพ</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943063  </div>
-                                    <div class="">Email : tirapat.m@cmu.ac.th</div>
-                                </div>
-                            </div>
-
+                            <img src="{{ asset('upload/department/sport-3.png') }}" alt="sport-3">
                         </div>
-
-
-
-
-
+                        <div class="col-lg-3 col-md-6">
+                            <img src="{{ asset('upload/department/sport-4.png') }}" alt="sport-4">
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <img src="{{ asset('upload/department/sport-5.png') }}" alt="sport-5">
+                        </div>
                     </div>
-
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div>
+                            <h4>งานกีฬา Sport Development Services</h4><br />
+                            <ol style="margin-left: 30px;">
+                                <li>อาคารสถานที่ อุปกรณ์และ สระว่ายน้ำรุจิรวงศ์</li>
+                                <li>กีฬาเพื่อสุขภาพ</li>
+                                <li>กิจกรรมกีฬานักศึกษา</li>
+                                <li>กีฬาเพื่อความเป็นเลิศ</li>
+                                <li>บริหารทั่วไป</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-lg " style="padding-top: 0px;">
-{{--                    <div class="fancy-title title-border title-center" style="margin-bottom: 0rem;">--}}
-{{--                        <h2 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">หัวหน้างานกองพัฒนานักศึกษา</h2>--}}
-{{--                    </div>--}}
-{{--                    <h4 style="text-align: center; ">Unit Supervisor</h4>--}}
-
-                    <div class="row col-mb-50 mb-0 justify-content-center">
-
-
-
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/เฟบ.jpg') }}" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นางสาวสุภาพร กองแก้ว</h4></div>
-                                    <div class=""><h5 class="">นักจักการงานทั่วไป</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943063  </div>
-                                    <div class="">Email : supaphorn.k@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี.jpg') }}" alt="Mary Jane">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายพีรวัส เดชพรม</h4></div>
-                                    <div class=""><h5 class="">นักจักการงานทั่วไป</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943059  </div>
-                                    <div class="">Email :peerawats.d@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/ตั้น.jpg') }}" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายณัฐภูมิ เทพหินลัพ</h4></div>
-                                    <div class=""><h5 class="">เจ้าหน้าที่สำนักงาน (สุดหล่อ)</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943063  </div>
-                                    <div class="">Email :  nutthapoom.t@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
+                <div class="col-lg-12" style="padding-top: 0px;">
+                    <div class="fancy-title title-border title-center" style="margin-top: 2rem;">
+                        <h3 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">ส่วนที่ 2
+                            หน้าที่และความรับผิดชอบ</h3>
                     </div>
-
-
-                    <div class="row col-mb-50 mb-0 d-flex justify-content-center">
-                        <div class="fancy-title title-border title-center" style="margin-bottom: 0rem;">
-                            <h2 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">ฝ่ายช่างและสถานที่</h2>
-                        </div>
-                        <h4 style="text-align: center; ">Technician and Buildings Grounds </h4>
-
-
+                    <div class="col-lg-12 d-flex justify-content-center">
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่สามารถ.jpg') }}" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายสามารถ จันทร์พะเนาว์</h4></div>
-                                    <div class=""><h5 class="">ฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058  </div>
-                                    <div class="">Email : samart.c@cmu.ac.th</div>
-                                </div>
-                            </div>
-
+                            <img src="{{ asset('upload/department/sport-1.png') }}" alt="sport-1">
                         </div>
-                        <div class="col-lg-3 col-md-6 ">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่หนึ่ง.jpg') }}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายปริญญา รังสิยานนท์</h4></div>
-                                    <div class=""><h5 class="">ฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943057  </div>
-                                    <div class="">Email : parinya.r@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่ไพศาล.jpg') }}" alt="Mary Jane">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายไพศาล คำสร้อย</h4></div>
-                                    <div class=""><h5 class="">พฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943057    </div>
-                                    <div class="">Email : phaisan.k@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่อนันต์.jpg') }}" alt="Mary Jane">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายอนันต์ จันทุมมา</h4></div>
-                                    <div class=""><h5 class="">พฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058    </div>
-                                    <div class="">Email : anan.j@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
-
-
-                    <div class="row col-mb-50 mb-0 d-flex justify-content-center">
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่ดำรง.jpg') }}" alt="Nix Maxwell">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายดำรง ยอดทองเลิศ</h4></div>
-                                    <div class=""><h5 class="">ฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058  </div>
-                                    <div class="">Email : damrong.y@cmu.ac.th</div>
-                                </div>
-                            </div>
-
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div>
+                            <h4>อาคารสถานที่ อุปกรณ์และ สระว่ายน้ำรุจิวงศ์</h4><br />
+                            <ol style="margin-left: 30px;">
+                                <li>ให้บริการสถานที่ เพื่อรองรับการจัดการแข่งขันกีฬาหรือกิจกรรมต่างๆ สำหรับนักศึกษา บุคลากรมหาวิทยาลัยเชียงใหม่ รวมถึงบุคคลทั่วไป และ หน่วยงายภายนอก</li>
+                                <li>ดูแลบำรุงรักษา สถานที่กีฬา และสระว่ายน้ำรุจิรวงศ์ อุปกรณ์กีฬาและอุปกรณ์อำนวยความสะดวกประจำสนามกีฬาต่างๆ เพื่อความปลอดภัยของผู้ใช้บริการและพร้อมต่อการให้บริการ</li>
+                                <li>พัฒนาสถานที่กีฬา และอุปกรณ์ต่างๆ ให้ได้ตามมาตรฐานของการจัดการแข่งขัน</li>
+                            </ol>
                         </div>
-                        <div class="col-lg-3 col-md-6 ">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่ศักดิ์สิทธิ์.jpg') }}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd">นายศักดิ์สิทธิ์ สุขโน</h4></div>
-                                    <div class=""><h5 class="">ฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058  </div>
-                                    <div class="">Email : saksit.s@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่วีระศักดิ์.jpg') }}" alt="Mary Jane">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายวีระศักดิ์ เทพประสิทธิ์</h4></div>
-                                    <div class=""><h5 class="">ฝ่ายช่างและสถานที่กีฬา</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943058    </div>
-                                    <div class="">Email : verasak.t@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
                     </div>
-
-                    <div class="row col-mb-50 mb-0 d-flex justify-content-center">
-                        <div class="fancy-title title-border title-center" style="margin-bottom: 0rem;">
-                            <h2 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">สระว่ายน้ำรุจิวงศ์</h2>
-                        </div>
-                        <h4 style="text-align: center; ">SWIMMING </h4>
+                    <div class="col-lg-12 d-flex justify-content-center">
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่อลงกต.jpg') }}" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายอลงกต จอมมาวรรณ</h4></div>
-                                    <div class=""><h5 class="">ดูแลความปลอดภัยภายในสระว่ายน้ำ</h5></div>
-                                        <div class="">โทรศัพท์ : 053-943050    </div>
-                                    <div class="">Email : alongkot.j@cmu.ac.th</div>
-                                </div>
-                            </div>
-
+                            <img src="{{ asset('upload/department/sport-2.png') }}" alt="sport-2">
                         </div>
-
+                    </div>
+                    <hr>
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div>
+                            <h4>ด้านกีฬาเพื่อสุขภาพ</h4><br />
+                            <ol style="margin-left: 30px;">
+                                <li>ส่งเสริม ให้นักศึกษา และบุคลากรของ มช. และบุคคลทั่วไปให้ใช้เวลาว่างให้เป็นประโยชน์โดยการเล่นกีฬาและหรือ การออกกำลังกายเพื่อสุขภาพ</li>
+                                <li>กิจกรรมต่างๆเพื่อส่งเสริมสุขภาพและนันทนาการของนักศึกษาและบุคลากรมหาวิทยาลัยเชียงใหม่</li>
+                            </ol><br />
+                        </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/แจ๊ดกี้.jpg') }}" alt="sport">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นายศุภณัฐ คุณยศยิ่ง</h4></div>
-                                    <div class=""><h5 class="">ดูแลความปลอดภัยภายในสระว่ายน้ำ</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943050    </div>
-                                    <div class="">Email : supanut.k@cmu.ac.th</div>
-                                </div>
-                            </div>
-
+                            <img src="{{ asset('upload/department/sport-3.png') }}" alt="sport-3">
                         </div>
+                    </div>
+                    <hr>
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div>
+                            <h4>กิจกรรมกีฬานักศึกษา</h4><br />
+                            <ol style="margin-left: 30px;">
+                                <li>ส่งเสริม สนับสนุน การบริหารจัดการ กิจกรรม และงบประมาณของฝ่ายกีฬา ส.มช. รวมทั้งชมรมกีฬา ส.มช.</li>
+                                <li>ให้คำปรึกษาในการจัดกิจกรรมกีฬาของนักศึกษา ให้เป็นไปตามระเบียบของมหาวิทยาลัย</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
                         <div class="col-lg-3 col-md-6">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่ทรวง.jpg') }}" alt="Mary Jane">
-                                </div>
-                                <div class="team-desc">
-
-                                    <div class="team-title"><h4 class="cosdd">นางสาวณัฐรินีย์ พัฒนสินทร์</h4></div>
-                                    <div  <div class=""><h5 class="">บริการทั่วไป</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943050    </div>
-                                    <div class="">Email : suparat.s@cmu.ac.th</div>
+                            <img src="{{ asset('upload/department/sport-4.png') }}" alt="sport-4">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div>
+                            <h4>ด้านกีฬาเพื่อความเป็นเลิศ</h4><br />
+                            <ol style="margin-left: 30px;">
+                                <li>การเตรียมทีมและจัดส่งนักกีฬาเข้าร่วมการแข่งขันกีฬามหาวิทยาลัย</li>
+                                <li>การรับนักเรียนในโครงการพัฒนาและส่งเสริมเยาวชนดีเด่นทางการกีฬาเข้าศึกษามหาวิทยาลัยเชียงใหม่</li>
+                                <li>ให้คำปรึกษานักศึกษาในโครงการพัฒนาและส่งเสริมเยาวชนดีเด่นทางการกีฬาทั้งในด้านการพัฒนาทางด้านการกีฬาวิชาการตลอดจนชีวิตความเป็นอยู่และสวัสดิการต่างๆในมหาวิทยาลัย</li>
+                                <li>ส่งเสริม สนับสนุน และพัฒนาความสามารถด้านการกีฬาของนักกีฬามหาวิทยาลัยเชียงใหม่</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <img src="{{ asset('upload/department/sport-5.png') }}" alt="sport-5">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div>
+                            <h4>ด้านบริหารทั่วไป</h4><br />
+                            <ol style="margin-left: 30px;">
+                                <li>ระบบสารบรรณ</li>
+                                <li>การรับนักเรียนในโครงการพัฒนาและส่งเสริมเยาวชนดีเด่นทางการกีฬาเข้าศึกษามหาวิทยาลัยเชียงใหม่</li>
+                                <li>ระบบการเงิน เบิกจ่ายงบประมาณ</li>
+                                <li>ระบบพัสดุ จัดซื้อ จัดจ้าง</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-top: 0px;">
+                    <div class="fancy-title title-border title-center" style="margin-top: 2rem;">
+                        <h3 class="cosdd" style="text-align: center;margin-bottom: 0 !important;">ส่วนที่ 3 ติดต่อเรา</h3>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-start">
+                        <div class="d-flex align-items-start flex-column">
+                            <div class="flex">
+                                <h4>1. ให้บริการดูแลนักศึกษาด้านสุขภาพจิต</h4>
+                                <p style="margin-left: 2rem;">
+                                    <b>โทรศัพท์ : </b><span>053-943057-8 , 053-943062-3</span>
+                                    <br/>
+                                    <b>Facebook : </b><a href="http://www.facebook.com/sportscenterCMU" target="_blank">http://www.facebook.com/sportscenterCMU</a>
+                                    
+                                </p>
+                            </div>
+                            <div class="flex">
+                                <h4>2. บริการจัดหางานพิเศษเพื่อหารายได้ระหว่างเรียนและการส่งเสริมการมีงานทำเมื่อสำเร็จการศึกษา</h4>
+                                <p style="margin-left: 2rem;">
+                                    <b>โทรศัพท์ : </b><span>053-943042</span>
+                                    <br/>
+                                    <b>Facebook : </b><a href="https://www.facebook.com/CMUJobSearch" target="_blank">https://www.facebook.com/CMUJobSearch</a>
+                                </p>
+                            </div>
+                            <div class="flex">
+                                <h4>3. ส่งเสริมความเป็นสากลให้กับนักศึกษาด้วยกิจกรรมเสริมหลักสูตร</h4>
+                                <div style="margin-left: 2rem;">
+                                    <b>โทรศัพท์ : </b><span>053-943034</span>
+                                    <br/>
+                                    <div class="d-flex">
+                                        <b>Facebook : </b>
+                                        <div style="margin-left: 0.5rem" class="flex">
+                                            <a href="https://www.facebook.com/CMUExchangeActivities" target="_blank">https://www.facebook.com/CMUExchangeActivities</a><br/>
+                                            <a href="https://www.facebook.com/CMUINTCLUB" target="_blank">https://www.facebook.com/CMUINTCLUB</a>
+                                        </div>
+                                    </div>
+                                        
+                                    
                                 </div>
                             </div>
-
                         </div>
-
-                        <div class="col-lg-3 col-md-6 ">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="{{ asset('upload/org/sport/พี่วิศาล.jpg') }}" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4 class="cosdd"> นายวิศาล ใบแสด</h4></div>
-                                    <div class=""><h5 class="">ดูแลความปลอดภัยภายในสระว่ายน้ำ</h5></div>
-                                    <div class="">โทรศัพท์ : 053-943050    </div>
-                                    <div class="">Email :wisan.b@cmu.ac.th</div>
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -403,5 +192,4 @@
     </section><!-- #content end -->
 @endsection
 @section('page-scripts')
-
 @endsection

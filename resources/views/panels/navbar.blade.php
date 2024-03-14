@@ -72,16 +72,16 @@
                 </li>
 
                 <li class="menu-item">
-                    <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.depeth') }}</div></a>
+                    <a class="menu-link" href="{{ url('department/eth') }}"><div>{{ trans('message.depeth') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.depsport') }}</div></a>
+                    <a class="menu-link" href="{{ url('department/sport') }}"><div>{{ trans('message.depsport') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="{{ url('/maintenance')}}"><div>{{ trans('message.depdss') }}</div></a>
+                    <a class="menu-link" href="{{ url('department/dss')}}"><div>{{ trans('message.depdss') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.depga') }}</div></a>
+                    <a class="menu-link" href="{{ url('department/ga') }}"><div>{{ trans('message.depga') }}</div></a>
                 </li>
 
 
