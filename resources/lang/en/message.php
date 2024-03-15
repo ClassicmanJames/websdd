@@ -5,6 +5,7 @@ return [
     'StudyingatCMU' => 'Studying at CMU',
     'FacultiesandDepartments' => 'Faculties and Departments',
     'Contact' => 'Contact Us',
+    'ContactSdd' => 'Contact Us',
      /////////////
     'About' => 'Abouts',
     'Units' => 'Units',
@@ -94,6 +95,17 @@ return [
     'sdac'=> 'SD Academy',
     'led'=> 'Lifelong Education',
 
+    //Contact
+    'address' => 'Address',
+    'addressSDD' => 'Student Development Division of Chiangmai University
+    Chiang Mai University, 239 Huay Kaew Road,
+    Muang District, Chiang Mai, Thailand, 50200',
+    'tel' => 'Tel',
+    'telNum' => '+66 53 943039',
+    'fax' => 'Fax',
+    'faxNum' => '+66 53 943070',
+    'email' => 'E-mail',
+    'map' => 'Map',
 
     'pnew'=> 'ภาพข่าวกิจกรรม',
     'pchom'=> 'ชื่นชมลูกช้าง มช.',

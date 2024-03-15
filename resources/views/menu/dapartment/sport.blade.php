@@ -28,6 +28,8 @@
                         <div class="col-lg-3 col-md-6">
                             <img src="{{ asset('upload/department/sport-2.png') }}" alt="sport-2">
                         </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-around">
                         <div class="col-lg-3 col-md-6">
                             <img src="{{ asset('upload/department/sport-3.png') }}" alt="sport-3">
                         </div>
@@ -38,7 +40,7 @@
                             <img src="{{ asset('upload/department/sport-5.png') }}" alt="sport-5">
                         </div>
                     </div>
-                    <div class="col-lg-12 d-flex justify-content-start">
+                    <div style="margin-top: 3rem;" class="col-lg-12 d-flex justify-content-start">
                         <div>
                             <h4>งานกีฬา Sport Development Services</h4><br />
                             <ol style="margin-left: 30px;">
@@ -61,6 +63,7 @@
                             <img src="{{ asset('upload/department/sport-1.png') }}" alt="sport-1">
                         </div>
                     </div>
+                    <hr>
                     <div class="col-lg-12 d-flex justify-content-start">
                         <div>
                             <h4>อาคารสถานที่ อุปกรณ์และ สระว่ายน้ำรุจิวงศ์</h4><br />

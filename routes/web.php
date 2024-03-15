@@ -7,6 +7,10 @@ use App\Http\Controllers\Service\ServiceStudentController;
 use App\Http\Controllers\Menu\MainMenuController;
 use App\Http\Controllers\Menu\OrganizationalstructureController;
 use App\Http\Controllers\Menu\DepartmentController;
+use App\Http\Controllers\Menu\StudentDevController;
+use App\Http\Controllers\Menu\ContactController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -54,6 +58,15 @@ Route::get('/department/inter',[DepartmentController::class,'inter']);
 Route::get('/department/dss',[DepartmentController::class,'dss']);
 Route::get('/department/eth',[DepartmentController::class,'eth']);
 
+Route::get('/StudentDev/smartStu',[StudentDevController::class,'smartStu']);
+Route::get('/StudentDev/stuGov',[StudentDevController::class,'stuGov']);
+Route::get('/StudentDev/devClassActivity',[StudentDevController::class,'devClassActivity']);
+Route::get('/StudentDev/trainStuLeader',[StudentDevController::class,'trainStuLeader']);
+Route::get('/StudentDev/smartChar',[StudentDevController::class,'smartChar']);
+Route::get('/StudentDev/sportForAll',[StudentDevController::class,'sportForAll']);
+Route::get('/StudentDev/devStuToInter',[StudentDevController::class,'devStuToInter']);
+Route::get('/StudentDev/sdAca',[StudentDevController::class,'sdAca']);
+Route::get('/StudentDev/llEdu',[StudentDevController::class,'llEdu']);
 
 Route::get('/history', [MainMenuController::class ,'history']);
 Route::get('/missionversion', [MainMenuController::class ,'missionversion']);
@@ -73,3 +86,4 @@ Route::get('/service/serviceforstu', [ServiceStudentController::class ,'servicef
 Route::get('/service/sport', [ServiceStudentController::class ,'sport']);
 Route::get('/service/mrm', [ServiceStudentController::class ,'mrm']);
 
+Route::get('/contact', [ContactController::class ,'contractUs']);

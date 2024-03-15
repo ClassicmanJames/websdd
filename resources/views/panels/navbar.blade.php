@@ -4,7 +4,7 @@
 
 
         <li class="menu-item">
-            <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.About') }}</div></a>
+            <a class="menu-link" href="{{ url('#') }}"><div>{{ trans('message.About') }}</div></a>
             <ul class="sub-menu-container">
                 <li class="menu-item">
                     <a class="menu-link" href="{{ url('/history') }}"><div>{{ trans('message.historysdd') }}</div></a>
@@ -48,8 +48,6 @@
                         </li>
                     </ul>
                 </li>
-
-
             </ul>
 
         </li>
@@ -64,8 +62,6 @@
                 <li class="menu-item">
                     <a class="menu-link" href="{{ url('department/inter') }}"><div>{{ trans('message.depinter') }}</div></a>
                 </li>
-
-
 
                 <li class="menu-item">
                     <a class="menu-link" href="{{ url('department/scholarship') }}"><div>{{ trans('message.depsch') }}</div></a>
@@ -89,40 +85,38 @@
         </li>
 
         <li class="menu-item">
-            <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.Studentorganization') }}</div></a>
+            <a class="menu-link" target="_blank" href="https://cmu.ac.th/th/firstyear/FreshmenInitiationDay#club1"><div>{{ trans('message.Studentorganization') }}</div></a>
         </li>
 
         <li class="menu-item">
-            <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.Studentdevelopment') }}</div></a>
+            <a class="menu-link" href="#"><div>{{ trans('message.Studentdevelopment') }}</div></a>
             <ul class="sub-menu-container">
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-niche"><div>{{ trans('message.smartstu') }}</div></a>
+                    <a class="menu-link" href="{{ url('StudentDev/smartStu')}}"><div>{{ trans('message.smartstu') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-niche"><div>{{ trans('message.ocmu') }}</div></a>
+                    <a class="menu-link" href="{{ url('service/scholarship')}}"><div>{{ trans('message.ocmu') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.sdwstu') }}</div></a>
-                </li>
-
-                <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.stures') }}</div></a>
-                </li>
-
-                <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.smartcha') }}</div></a>
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.sdwstu') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.sportforall') }}</div></a>
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.stures') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.devstu') }}</div></a>
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.smartcha') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.sdac') }}</div></a>
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.sportforall') }}</div></a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="intro.html#section-onepage"><div>{{ trans('message.led') }}</div></a>
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.devstu') }}</div></a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.sdac') }}</div></a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="{{ url('maintenance')}}"><div>{{ trans('message.led') }}</div></a>
                 </li>
 
 
@@ -134,7 +128,7 @@
 
 
         <li class="menu-item">
-            <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.Publicnews') }}</div></a>
+            <a class="menu-link" href="#"><div>{{ trans('message.Publicnews') }}</div></a>
             <ul class="sub-menu-container">
                 <li class="menu-item">
                     <a class="menu-link" href="intro.html#section-niche"><div>{{ trans('message.pnew') }}</div></a>
@@ -193,7 +187,7 @@
         </li>
 
         <li class="menu-item">
-            <a class="menu-link" href="{{ url('/maintenance') }}"><div>{{ trans('message.Contact') }}</div></a>
+            <a class="menu-link" href="{{ url('/contact') }}"><div>{{ trans('message.Contact') }}</div></a>
         </li>
 
         <li class="menu-item">
